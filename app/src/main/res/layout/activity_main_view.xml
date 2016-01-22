@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="iot.redhat.com.devconfdemo.MainView">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:stretchColumns="0,1">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Action 1"
+                android:id="@+id/action1"
+                android:layout_gravity="center_horizontal"
+                android:onClick="onAction1" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Action 2"
+                android:id="@+id/action2"
+                android:layout_gravity="center_horizontal"
+                android:onClick="onAction2" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Action 3"
+                android:id="@+id/action3"
+                android:layout_gravity="center_horizontal"
+                android:onClick="onAction3" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Action 4"
+                android:id="@+id/action4"
+                android:layout_gravity="center_horizontal" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Action 5"
+                android:id="@+id/action5"
+                android:layout_gravity="center_horizontal"
+                android:onClick="onAction5" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Action 6"
+                android:id="@+id/action6"
+                android:layout_gravity="center_horizontal"
+                android:onClick="onAction6" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Action 7"
+                android:id="@+id/action7"
+                android:layout_gravity="center_horizontal"
+                android:onClick="onAction7" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Action 8"
+                android:id="@+id/action8"
+                android:layout_gravity="center_horizontal"
+                android:onClick="onAction8" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Action 9"
+                android:id="@+id/action9"
+                android:layout_gravity="center_horizontal"
+                android:onClick="onAction9" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Action 10"
+                android:id="@+id/action10"
+                android:layout_gravity="center_horizontal"
+                android:onClick="onAction10" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Action 11"
+                android:id="@+id/action11"
+                android:layout_gravity="center_horizontal"
+                android:onClick="onAction11" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Action 12"
+                android:id="@+id/action12"
+                android:layout_gravity="center_horizontal"
+                android:onClick="onAction12" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Action 13"
+                android:id="@+id/action13"
+                android:layout_gravity="center_horizontal"
+                android:onClick="onAction13" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Action 14"
+                android:id="@+id/action14"
+                android:layout_gravity="center_horizontal"
+                android:onClick="onAction14" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Action 15"
+                android:id="@+id/action15"
+                android:layout_gravity="center_horizontal"
+                android:onClick="onAction15" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Action 16"
+                android:id="@+id/action16"
+                android:layout_gravity="center_horizontal"
+                android:onClick="onAction16" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Action 17"
+                android:id="@+id/action17"
+                android:layout_gravity="center_horizontal"
+                android:onClick="onAction17" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Action 18"
+                android:id="@+id/action18"
+                android:layout_gravity="center_horizontal"
+                android:onClick="onAction18" />
+        </TableRow>
+    </TableLayout>
+
+</RelativeLayout>

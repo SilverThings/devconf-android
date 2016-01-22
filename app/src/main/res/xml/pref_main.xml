@@ -1,0 +1,22 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <EditTextPreference
+        android:capitalize="none"
+        android:defaultValue="http://jsonplaceholder.typicode.com"
+        android:inputType="text"
+        android:key="json_service_url"
+        android:maxLines="1"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="Service URL" />
+
+    <EditTextPreference
+        android:capitalize="none"
+        android:defaultValue="tcp://192.168.122.1:1883"
+        android:inputType="text"
+        android:key="mqtt_broker_url"
+        android:maxLines="1"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="MQTT Broker URL" />
+</PreferenceScreen>
