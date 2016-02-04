@@ -16,7 +16,7 @@ import org.slf4j.LoggerFactory;
  */
 public class Broker {
     private static final Logger LOG = LoggerFactory.getLogger(Broker.class.getSimpleName());
-    public static final String STATUS_TOPIC = "iot/status";
+    public static final String STATUS_TOPIC = "ih/message/mobile";
 
     private MqttAndroidClient mqtt;
     private MainView mainView;
@@ -37,8 +37,8 @@ public class Broker {
         try {
             LOG.debug("Connecting");
             final MqttConnectOptions opts = new MqttConnectOptions();
-            opts.setUserName("admin");
-            opts.setPassword("admin".toCharArray());
+            opts.setUserName("mqtt");
+            opts.setPassword("mqtt".toCharArray());
             mqtt = new MqttAndroidClient(mainView, brokerUrl, MqttClient.generateClientId());
             mqtt.connect(opts, this, new IMqttActionListener() {
                 @Override
