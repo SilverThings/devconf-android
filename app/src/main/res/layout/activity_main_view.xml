@@ -21,7 +21,7 @@
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Action 1"
+                android:text="DAY"
                 android:id="@+id/action1"
                 android:layout_gravity="center_horizontal"
                 android:onClick="onAction1" />
@@ -29,7 +29,7 @@
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Action 2"
+                android:text="EVENING"
                 android:id="@+id/action2"
                 android:layout_gravity="center_horizontal"
                 android:onClick="onAction2" />
@@ -42,7 +42,7 @@
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Action 3"
+                android:text="SLEEP"
                 android:id="@+id/action3"
                 android:layout_gravity="center_horizontal"
                 android:onClick="onAction3" />
@@ -50,9 +50,10 @@
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Action 4"
+                android:text="ROMANTIC"
                 android:id="@+id/action4"
-                android:layout_gravity="center_horizontal" />
+                android:layout_gravity="center_horizontal"
+                android:onClick="onAction4" />
         </TableRow>
 
         <TableRow
@@ -62,7 +63,7 @@
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Action 5"
+                android:text="AC ON"
                 android:id="@+id/action5"
                 android:layout_gravity="center_horizontal"
                 android:onClick="onAction5" />
@@ -70,7 +71,7 @@
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Action 6"
+                android:text="AC OFF"
                 android:id="@+id/action6"
                 android:layout_gravity="center_horizontal"
                 android:onClick="onAction6" />
@@ -83,7 +84,7 @@
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Action 7"
+                android:text="UNLOCK"
                 android:id="@+id/action7"
                 android:layout_gravity="center_horizontal"
                 android:onClick="onAction7" />
@@ -91,7 +92,7 @@
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Action 8"
+                android:text="LOCK"
                 android:id="@+id/action8"
                 android:layout_gravity="center_horizontal"
                 android:onClick="onAction8" />
@@ -104,7 +105,7 @@
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Action 9"
+                android:text="WINDOW OPEN"
                 android:id="@+id/action9"
                 android:layout_gravity="center_horizontal"
                 android:onClick="onAction9" />
@@ -112,7 +113,7 @@
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Action 10"
+                android:text="WINDOW CLOSE"
                 android:id="@+id/action10"
                 android:layout_gravity="center_horizontal"
                 android:onClick="onAction10" />
@@ -125,7 +126,7 @@
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Action 11"
+                android:text="BEDROOM ON"
                 android:id="@+id/action11"
                 android:layout_gravity="center_horizontal"
                 android:onClick="onAction11" />
@@ -133,7 +134,7 @@
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Action 12"
+                android:text="BEDROOM OFF"
                 android:id="@+id/action12"
                 android:layout_gravity="center_horizontal"
                 android:onClick="onAction12" />
@@ -146,7 +147,7 @@
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Action 13"
+                android:text="BED 1 ON"
                 android:id="@+id/action13"
                 android:layout_gravity="center_horizontal"
                 android:onClick="onAction13" />
@@ -154,7 +155,7 @@
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Action 14"
+                android:text="BED 1 OFF"
                 android:id="@+id/action14"
                 android:layout_gravity="center_horizontal"
                 android:onClick="onAction14" />
@@ -167,7 +168,7 @@
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Action 15"
+                android:text="BED 2 ON"
                 android:id="@+id/action15"
                 android:layout_gravity="center_horizontal"
                 android:onClick="onAction15" />
@@ -175,7 +176,7 @@
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Action 16"
+                android:text="BED 2 OFF"
                 android:id="@+id/action16"
                 android:layout_gravity="center_horizontal"
                 android:onClick="onAction16" />
@@ -188,7 +189,7 @@
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Action 17"
+                android:text="AWAY"
                 android:id="@+id/action17"
                 android:layout_gravity="center_horizontal"
                 android:onClick="onAction17" />
@@ -196,7 +197,7 @@
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Action 18"
+                android:text="WEATHER"
                 android:id="@+id/action18"
                 android:layout_gravity="center_horizontal"
                 android:onClick="onAction18" />

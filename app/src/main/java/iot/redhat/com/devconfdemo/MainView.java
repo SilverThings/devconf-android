@@ -60,8 +60,8 @@ public class MainView extends AppCompatActivity {
         super.onResume();
         SharedPreferences sharedPref = PreferenceManager.getDefaultSharedPreferences(this);
         broker = new Broker(this);
-        broker.reconnect(sharedPref.getString(SettingsActivity.MQTT_BROKER_URL, null));
-        service = new HTTPInvoker(sharedPref.getString(SettingsActivity.JSON_SERVICE_URL, null));
+        broker.reconnect(sharedPref.getString(SettingsActivity.MQTT_BROKER_URL, ""));
+        service = new HTTPInvoker(sharedPref.getString(SettingsActivity.JSON_SERVICE_URL, ""));
     }
 
     @Override
@@ -93,16 +93,17 @@ public class MainView extends AppCompatActivity {
     }
 
     public void onAction1(View v) {
-        service.get(ACTION1_PATH);
+        service.get("/mobile?button=1");
     }
 
     public void onAction2(View v) {
-        service.post(ACTION2_PATH, "{\n" +
+        service.get("/mobile?button=2");
+        /*service.post(ACTION2_PATH, "{\n" +
                 "  \"userId\": 1,\n" +
                 "  \"id\": 1000,\n" +
                 "  \"title\": \"mytitle\",\n" +
                 "  \"body\": \"mybody\"" +
-                "}");
+                "}");*/
     }
 
     public void updateButton(final String buttonName, final int backgroundColor, final String newLabel) {
@@ -123,5 +124,68 @@ public class MainView extends AppCompatActivity {
     }
 
     public void onAction3(View v) {
+        service.get("/mobile?button=3");
     }
+
+    public void onAction4(View v) {
+        service.get("/mobile?button=4");
+    }
+
+    public void onAction5(View v) {
+        service.get("/mobile?button=5");
+    }
+
+    public void onAction6(View v) {
+        service.get("/mobile?button=6");
+    }
+
+    public void onAction7(View v) {
+        service.get("/mobile?button=7");
+    }
+
+    public void onAction8(View v) {
+        service.get("/mobile?button=8");
+    }
+
+    public void onAction9(View v) {
+        service.get("/mobile?button=9");
+    }
+
+    public void onAction10(View v) {
+        service.get("/mobile?button=10");
+    }
+
+    public void onAction11(View v) {
+        service.get("/mobile?button=11");
+    }
+
+    public void onAction12(View v) {
+        service.get("/mobile?button=12");
+    }
+
+    public void onAction13(View v) {
+        service.get("/mobile?button=13");
+    }
+
+    public void onAction14(View v) {
+        service.get("/mobile?button=14");
+    }
+
+    public void onAction15(View v) {
+        service.get("/mobile?button=15");
+    }
+
+    public void onAction16(View v) {
+        service.get("/mobile?button=16");
+    }
+
+    public void onAction17(View v) {
+        service.get("/mobile?button=17");
+    }
+
+    public void onAction18(View v) {
+        service.get("/mobile?button=18");
+    }
+
+
 }
